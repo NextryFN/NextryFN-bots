@@ -137,7 +137,7 @@ with open("config.json") as f:
             Fore.RED
             + " [ERROR] "
             + Fore.RESET
-            + "There was an error in one of the bot's files! (info.json) If you have problems trying to fix it, join the discord support  - https://discord.gg/pKyxK6jxac"
+            + "There was an error in one of the bot's files! (info.json) If you have problems trying to fix it, join the discord support thh - https://discord.gg/pKyxK6jxac" 
         )
         print(Fore.LIGHTRED_EX + f"\n {e}")
         exit(1)
