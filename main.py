@@ -36,7 +36,7 @@ os.system("cls||clear")
 intro = (
     Fore.LIGHTCYAN_EX
     + """ 
-    lobby bot made by gummy bear and ecu
+    lobby bot made by gummy bear and mello
                                                                     
  """
 )
@@ -119,7 +119,7 @@ with open("config.json") as f:
             Fore.RED
             + " [ERROR] "
             + Fore.RESET
-            + "There was an error in one of the bot's files! (config.json). If you have problems trying to fix it, join the discord support server for help - https://discord.gg/ugUTsaz"
+            + "There was an error in one of the bot's files! (config.json). If you have problems trying to fix it, join the discord support server for help - https://discord.gg/pKyxK6jxac"
         )
         print(Fore.LIGHTRED_EX + f"\n {e}")
         exit(1)
@@ -133,7 +133,7 @@ with open("config.json") as f:
             Fore.RED
             + " [ERROR] "
             + Fore.RESET
-            + "There was an error in one of the bot's files! (info.json) If you have problems trying to fix it, join the discord support  - https://discord.gg/ugUTsaz"
+            + "There was an error in one of the bot's files! (info.json) If you have problems trying to fix it, join the discord support  - https://discord.gg/pKyxK6jxac"
         )
         print(Fore.LIGHTRED_EX + f"\n {e}")
         exit(1)
@@ -309,7 +309,7 @@ async def event_party_member_confirm(confirmation: fortnitepy.PartyJoinConfirmat
 async def event_party_member_join(member: fortnitepy.PartyMember) -> None:
     
     await client.party.send(
-        f" Welcome ! {member.display_name} Made with GummyFN join discord.gg/ugUTsaz to get your own bot!"
+        f" Welcome ! {member.display_name} Made with NextryFN join https://discord.gg/pKyxK6jxac to get your own bot!"
     )
     await client.party.me.set_emote(asset="eid_wave")
     await asyncio.sleep(1.25)
