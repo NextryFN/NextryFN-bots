@@ -313,8 +313,7 @@ async def event_party_member_confirm(confirmation: fortnitepy.PartyJoinConfirmat
 async def event_party_member_join(member: fortnitepy.PartyMember) -> None:
     
     await client.party.send(
-        f" Welcome ! {member.display_name} Made with NextryFN join https://discord.gg/pKyxK6jxac to get your own bot!"
-    )
+        f" Welcome ! {member.display_name},Join Our Official Discord Server To Support Us /n Can Even Create Your Own Bot Soon. /n https://discord.gg/pKyxK6jxac")
     await client.party.me.set_emote(asset="eid_wave")
     await asyncio.sleep(1.25)
     await client.party.me.clear_emote()
@@ -408,26 +407,8 @@ async def event_command_error(ctx, error):
     else:
         print(error)
 
-@client.command()
-async def gummy(ctx):
-    await ctx.send('Hello Gummy is my owner he well love it if you can use code zfn in the fortnite item shop')
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+ 
     
 #Gold-style
     
