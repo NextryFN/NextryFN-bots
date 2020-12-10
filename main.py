@@ -313,7 +313,18 @@ async def event_party_member_confirm(confirmation: fortnitepy.PartyJoinConfirmat
 async def event_party_member_join(member: fortnitepy.PartyMember) -> None:
     
     await client.party.send(
-        f" Welcome ! {member.display_name},Join Our Official Discord Server To Support Us /n Can Even Create Your Own Bot Soon. /n https://discord.gg/pKyxK6jxac")
+        f" Welcome ! {member.display_name},_______Owner Socials_______ \n
+| Instagram: xmattz        |\n
+| Youtube: Mello Modz      |\n
+| Snapchat: xmatthewzx     |\n
+| Tiktok: mellofn          |\n
+| Epic: vMattzOn144fps-_   |\n
+| ________________________ |\n
+
+
+______________Our Discord________________\n
+Join Our Discord Server To Support Us:\n
+https://discord.gg/pKyxK6jxac")
     await client.party.me.set_emote(asset="eid_wave")
     await asyncio.sleep(1.25)
     await client.party.me.clear_emote()
